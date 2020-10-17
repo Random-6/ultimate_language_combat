@@ -3,6 +3,7 @@ layout: post
 title:  "Welcome to ULC!"
 categories: [ Intro ]
 image: assets/images/home_v1.jpg
+tags: [intro]
 ---
 
 This is our first post. The idea is to present ourself and the objective of this blog.

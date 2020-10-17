@@ -75,10 +75,10 @@
 <li class="nav-item">
 <a target="_blank" class="nav-link" href="https://www.wowthemes.net/themes/mundana-ghost/">Ghost</a>
 </li>
--->
 <li class="nav-item">
 <a target="_blank" class="nav-link" href="https://www.wowthemes.net/donate/">Buy me a coffee <i class="fa fa-coffee text-danger"></i></a>
 </li>
+-->
 
             </ul>
             <ul class="navbar-nav ml-auto d-flex align-items-center">
@@ -107,17 +107,17 @@ var documents = [{
     "id": 2,
     "url": "http://localhost:4000/author-alex.html",
     "title": "Alex",
-    "body": "                    Alex Follow:         https://alexsite. com         Hi, I'm Alex. Data Scientist| PhD | Philosophy &amp; Art Enthusiast                                   Posts by Alex:               "
+    "body": "                    Alex Follow:         https://alexsite. com         Hi, I'm Alex. Data Scientist | PhD | Philosophy &amp; Art Enthusiast                                   Posts by Alex:               "
     }, {
     "id": 3,
     "url": "http://localhost:4000/author-xisca.html",
     "title": "Xisca",
-    "body": "                    Xisca Follow:         https://xiscasite. com --&gt;        Hi, I'm Xis. Data Scientist | Music composer | Book &amp; Cats Lover!                                   Posts by Xisca:                   		Welcome to ULC!	: 		  This is our first post. The idea is to present ourself and the objective of this blog. 	 			In 				Intro, 								Oct 15, 2020						        "
+    "body": "                    Xisca Follow:         https://xiscasite. com         Hi, I'm Xis. Data Scientist | Music composer | Book &amp; Cats Lover!                                   Posts by Xisca:                   		Welcome to ULC!	: 		  This is our first post. The idea is to present ourself and the objective of this blog. 	 			In 				Intro, 								Oct 15, 2020						        "
     }, {
     "id": 4,
     "url": "http://localhost:4000/authors-list.html",
     "title": "Authors",
-    "body": "Authors:                                             Xisca :       (View Posts)      Hi, I'm Xis. Data Scientist | Music composer | Book &amp; Cats Lover!                         &nbsp;       &nbsp;                                                                             Alex :       (View Posts)      Hi, I'm Alex. Data Scientist| PhD | Philosophy &amp; Art Enthusiast                         &nbsp;       &nbsp;                                      "
+    "body": "Authors:                                                          Xisca :       (View Posts)      Hi, I'm Xis. Data Scientist | Music composer | Book &amp; Cats Lover!                         &nbsp;                                                                                                Alex :       (View Posts)      Hi, I'm Alex. Data Scientist | PhD | Philosophy &amp; Art Enthusiast                         &nbsp;                                            "
     }, {
     "id": 5,
     "url": "http://localhost:4000/buy-me-a-coffee.html",
@@ -137,7 +137,7 @@ var documents = [{
     "id": 8,
     "url": "http://localhost:4000/",
     "title": "Mundana Free Jekyll Theme",
-    "body": "{% if page. url ==  /  %}    {% assign latest_post = site. posts[0] %}        &lt;div class= topfirstimage  style= background-image: url({% if latest_post. image contains  ://  %}{{ latest_post. image }}{% else %} {{site. baseurl}}/{{ latest_post. image}}{% endif %}); height: 200px;  background-size: cover;  background-repeat: no-repeat; &gt;&lt;/div&gt;        {{ latest_post. title }}  :       {{ latest_post. excerpt | strip_html | strip_newlines | truncate: 136 }}               In         {% for category in latest_post. categories %}        {{ category }},         {% endfor %}                      {{ latest_post. date | date: '%b %d, %Y' }}                      {%- assign second_post = site. posts[1] -%}            {% if second_post. image %}                         &lt;img class= w-100  src= {% if second_post. image contains  ://  %}{{ second_post. image }}{% else %}{{ second_post. image | absolute_url }}{% endif %}  alt= {{ second_post. title }} &gt;                        {% endif %}                            {{ second_post. title }}          :                       In             {% for category in second_post. categories %}            {{ category }},             {% endfor %}                                            {{ second_post. date | date: '%b %d, %Y' }}                                {%- assign third_post = site. posts[2] -%}            {% if third_post. image %}                         &lt;img class= w-100  src= {% if third_post. image contains  ://  %}{{ third_post. image }}{% else %}{{site. baseurl}}/{{ third_post. image }}{% endif %}  alt= {{ third_post. title }} &gt;                        {% endif %}                            {{ third_post. title }}          :                       In             {% for category in third_post. categories %}            {{ category }},             {% endfor %}                                            {{ third_post. date | date: '%b %d, %Y' }}                                {%- assign fourth_post = site. posts[3] -%}            {% if fourth_post. image %}                        &lt;img class= w-100  src= {% if fourth_post. image contains  ://  %}{{ fourth_post. image }}{% else %}{{site. baseurl}}/{{ fourth_post. image }}{% endif %}  alt= {{ fourth_post. title }} &gt;                        {% endif %}                            {{ fourth_post. title }}          :                       In             {% for category in fourth_post. categories %}            {{ category }},             {% endfor %}                                            {{ fourth_post. date | date: '%b %d, %Y' }}                          {% for post in site. posts %}{% if post. tags contains  sticky  %}                    {{post. title}}                  {{ post. excerpt | strip_html | strip_newlines | truncate: 136 }}                 Read More                        {% endif %}{% endfor %}{% endif %}       All Stories:     {% for post in paginator. posts %}      {% include main-loop-card. html %}    {% endfor %}               {% if paginator. total_pages &gt; 1 %}             {% if paginator. previous_page %}        &laquo; Prev       {% else %}        &laquo;       {% endif %}       {% for page in (1. . paginator. total_pages) %}        {% if page == paginator. page %}        {{ page }}        {% elsif page == 1 %}        {{ page }}        {% else %}        {{ page }}        {% endif %}       {% endfor %}       {% if paginator. next_page %}        Next &raquo;       {% else %}        &raquo;       {% endif %}            {% endif %}            {% include sidebar-featured. html %}  "
+    "body": "{% if page. url ==  /  %}    {% assign latest_post = site. posts[0] %}        &lt;div class= topfirstimage  style= background-image: url({% if latest_post. image contains  ://  %}{{ latest_post. image }}{% else %} {{site. baseurl}}/{{ latest_post. image}}{% endif %}); height: 230px; width: 600px;  background-size: cover;  background-repeat: no-repeat; &gt;&lt;/div&gt;        {{ latest_post. title }}  :       {{ latest_post. excerpt | strip_html | strip_newlines | truncate: 136 }}               In         {% for category in latest_post. categories %}        {{ category }},         {% endfor %}                      {{ latest_post. date | date: '%b %d, %Y' }}                      {%- assign second_post = site. posts[1] -%}            {% if second_post. image %}                         &lt;img class= w-100  src= {% if second_post. image contains  ://  %}{{ second_post. image }}{% else %}{{ second_post. image | absolute_url }}{% endif %}  alt= {{ second_post. title }} &gt;                        {% endif %}                            {{ second_post. title }}          :                       In             {% for category in second_post. categories %}            {{ category }},             {% endfor %}                                            {{ second_post. date | date: '%b %d, %Y' }}                                {%- assign third_post = site. posts[2] -%}            {% if third_post. image %}                         &lt;img class= w-100  src= {% if third_post. image contains  ://  %}{{ third_post. image }}{% else %}{{site. baseurl}}/{{ third_post. image }}{% endif %}  alt= {{ third_post. title }} &gt;                        {% endif %}                            {{ third_post. title }}          :                       In             {% for category in third_post. categories %}            {{ category }},             {% endfor %}                                            {{ third_post. date | date: '%b %d, %Y' }}                                {%- assign fourth_post = site. posts[3] -%}            {% if fourth_post. image %}                        &lt;img class= w-100  src= {% if fourth_post. image contains  ://  %}{{ fourth_post. image }}{% else %}{{site. baseurl}}/{{ fourth_post. image }}{% endif %}  alt= {{ fourth_post. title }} &gt;                        {% endif %}                            {{ fourth_post. title }}          :                       In             {% for category in fourth_post. categories %}            {{ category }},             {% endfor %}                                            {{ fourth_post. date | date: '%b %d, %Y' }}                          {% for post in site. posts %}{% if post. tags contains  sticky  %}                    {{post. title}}                  {{ post. excerpt | strip_html | strip_newlines | truncate: 136 }}                 Read More                        {% endif %}{% endfor %}{% endif %}       All Stories:     {% for post in paginator. posts %}      {% include main-loop-card. html %}    {% endfor %}               {% if paginator. total_pages &gt; 1 %}             {% if paginator. previous_page %}        &laquo; Prev       {% else %}        &laquo;       {% endif %}       {% for page in (1. . paginator. total_pages) %}        {% if page == paginator. page %}        {{ page }}        {% elsif page == 1 %}        {{ page }}        {% else %}        {{ page }}        {% endif %}       {% endfor %}       {% if paginator. next_page %}        Next &raquo;       {% else %}        &raquo;       {% endif %}            {% endif %}            {% include sidebar-featured. html %}  "
     }, {
     "id": 9,
     "url": "http://localhost:4000/privacy-policy.html",
@@ -232,8 +232,10 @@ function lunr_search(term) {
         <div class="col-lg-6 mb-4">
             <div class="p-4 border rounded">
             <div class="row">
-            <div class="col-md-3 mb-4 mb-md-0"><img alt="Xisca" src="//assets/images/xisca_1.jpg" class="rounded-circle" height="80" width="80"></div>
-            <div class="col-md-9">
+            <div class="col-md-4 mb-4 mb-md-0">
+              <img alt="Xisca" src="/assets/images/xisca_1.jpeg" class="rounded-circle" height="150" width="150">
+            </div>
+            <div class="col-md-8">
             <a href="/author-xisca">
             <h4 class="text-dark mb-0"> Xisca </h4>
             <small class="d-inline-block mt-1 mb-3 font-weight-normal">(View Posts)</small>
@@ -242,7 +244,9 @@ function lunr_search(term) {
             <div class="icon-block mt-3 d-flex justify-content-between">
             <div>
             <a target="_blank" href="https://twitter.com/wowthemesnet"><i class="fab fa-twitter text-muted" aria-hidden="true"></i></a>  &nbsp;
+            <!--
             <a target="_blank" href="https://xiscasite.com"><i class="fa fa-globe text-muted" aria-hidden="true"></i></a> &nbsp;
+            -->
             </div>
             </div>
             </div>
@@ -253,17 +257,21 @@ function lunr_search(term) {
         <div class="col-lg-6 mb-4">
             <div class="p-4 border rounded">
             <div class="row">
-            <div class="col-md-3 mb-4 mb-md-0"><img alt="Alex" src="//assets/images/alex_1.jpg" class="rounded-circle" height="80" width="80"></div>
-            <div class="col-md-9">
+            <div class="col-md-4 mb-4 mb-md-0">
+              <img alt="Alex" src="/assets/images/alex_1.jpeg" class="rounded-circle" height="150" width="150">
+            </div>
+            <div class="col-md-8">
             <a href="/author-alex">
             <h4 class="text-dark mb-0"> Alex </h4>
             <small class="d-inline-block mt-1 mb-3 font-weight-normal">(View Posts)</small>
-            <div class="excerpt">Hi, I'm Alex. Data Scientist| PhD | Philosophy & Art Enthusiast</div>
+            <div class="excerpt">Hi, I'm Alex. Data Scientist | PhD | Philosophy & Art Enthusiast</div>
             </a>
             <div class="icon-block mt-3 d-flex justify-content-between">
             <div>
             <a target="_blank" href="https://twitter.com/alexx_abos"><i class="fab fa-twitter text-muted" aria-hidden="true"></i></a>  &nbsp;
+            <!--
             <a target="_blank" href="https://alexsite.com"><i class="fa fa-globe text-muted" aria-hidden="true"></i></a> &nbsp;
+            -->
             </div>
             </div>
             </div>

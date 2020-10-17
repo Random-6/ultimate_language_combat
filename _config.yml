@@ -23,17 +23,19 @@ authors:
     xisca:
       name:           Xisca
       site:           https://xiscasite.com
-      avatar:         /assets/images/xisca_1.jpg
+      avatar:         assets/images/xisca_1.jpeg
+      avatar_large:   assets/images/xisca_2.jpeg
       bio:            "Hi, I'm Xis. Data Scientist | Music composer | Book & Cats Lover!"
-      email:          xiscatest@gmail.com
+      email:          mfpericas@gmail.com
       twitter:        https://twitter.com/wowthemesnet
 
     alex:
       name:           Alex
       site:           https://alexsite.com
-      avatar:         /assets/images/alex_1.jpg
-      bio:            "Hi, I'm Alex. Data Scientist| PhD | Philosophy & Art Enthusiast"
-      email:          fakemail@gmail.com
+      avatar:         assets/images/alex_1.jpeg
+      avatar_large:   assets/images/alex_2.jpeg
+      bio:            "Hi, I'm Alex. Data Scientist | PhD | Philosophy & Art Enthusiast"
+      email:          alexandraabos@gmail.com
       twitter:        https://twitter.com/alexx_abos
 
 # Defaults
