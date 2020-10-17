@@ -17,11 +17,11 @@
 <link rel="canonical" href="http://localhost:4000/https://random-6.github.io/ultimate_language_combat/welcome_to_ulc/" />
 <meta property="og:url" content="http://localhost:4000/https://random-6.github.io/ultimate_language_combat/welcome_to_ulc/" />
 <meta property="og:site_name" content="The Ultimate Language Combat" />
-<meta property="og:image" content="http://localhost:4000/https://random-6.github.io/ultimate_language_combat/assets/images/home_v1_scaled.jpg" />
+<meta property="og:image" content="http://localhost:4000/https://random-6.github.io/ultimate_language_combat/assets/images/home_v1.jpg" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2020-10-15T00:00:00+02:00" />
 <script type="application/ld+json">
-{"author":{"@type":"Person","name":"xisca"},"image":"http://localhost:4000/https://random-6.github.io/ultimate_language_combat/assets/images/home_v1_scaled.jpg","description":"This is our first post. The idea is to present ourself and the objective of this blog.","url":"http://localhost:4000/https://random-6.github.io/ultimate_language_combat/welcome_to_ulc/","@type":"BlogPosting","headline":"Welcome to ULC!","dateModified":"2020-10-15T00:00:00+02:00","datePublished":"2020-10-15T00:00:00+02:00","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/https://random-6.github.io/ultimate_language_combat/assets/images/home_v1_small.png"},"name":"xisca"},"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/https://random-6.github.io/ultimate_language_combat/welcome_to_ulc/"},"@context":"http://schema.org"}</script>
+{"author":{"@type":"Person","name":"xisca"},"image":"http://localhost:4000/https://random-6.github.io/ultimate_language_combat/assets/images/home_v1.jpg","description":"This is our first post. The idea is to present ourself and the objective of this blog.","url":"http://localhost:4000/https://random-6.github.io/ultimate_language_combat/welcome_to_ulc/","@type":"BlogPosting","headline":"Welcome to ULC!","dateModified":"2020-10-15T00:00:00+02:00","datePublished":"2020-10-15T00:00:00+02:00","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/https://random-6.github.io/ultimate_language_combat/assets/images/home_v1_small.png"},"name":"xisca"},"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/https://random-6.github.io/ultimate_language_combat/welcome_to_ulc/"},"@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -141,7 +141,7 @@ var documents = [{
     "id": 8,
     "url": "http://localhost:4000https://random-6.github.io/ultimate_language_combat//",
     "title": "Mundana Free Jekyll Theme",
-    "body": "{% if page. url ==  /  %}    {% assign latest_post = site. posts[0] %}        &lt;div class= topfirstimage  style= background-image: url({% if latest_post. image contains  ://  %}{{ latest_post. image }}{% else %} {{site. baseurl}}/{{ latest_post. image}}{% endif %}); height: 250px;  background-size: cover;  background-repeat: no-repeat; &gt;&lt;/div&gt;        {{ latest_post. title }}  :       {{ latest_post. excerpt | strip_html | strip_newlines | truncate: 136 }}               In         {% for category in latest_post. categories %}        {{ category }},         {% endfor %}                      {{ latest_post. date | date: '%b %d, %Y' }}                      {%- assign second_post = site. posts[1] -%}            {% if second_post. image %}                         &lt;img class= w-100  src= {% if second_post. image contains  ://  %}{{ second_post. image }}{% else %}{{ second_post. image | absolute_url }}{% endif %}  alt= {{ second_post. title }} &gt;                        {% endif %}                            {{ second_post. title }}          :                       In             {% for category in second_post. categories %}            {{ category }},             {% endfor %}                                            {{ second_post. date | date: '%b %d, %Y' }}                                {%- assign third_post = site. posts[2] -%}            {% if third_post. image %}                         &lt;img class= w-100  src= {% if third_post. image contains  ://  %}{{ third_post. image }}{% else %}{{site. baseurl}}/{{ third_post. image }}{% endif %}  alt= {{ third_post. title }} &gt;                        {% endif %}                            {{ third_post. title }}          :                       In             {% for category in third_post. categories %}            {{ category }},             {% endfor %}                                            {{ third_post. date | date: '%b %d, %Y' }}                                {%- assign fourth_post = site. posts[3] -%}            {% if fourth_post. image %}                        &lt;img class= w-100  src= {% if fourth_post. image contains  ://  %}{{ fourth_post. image }}{% else %}{{site. baseurl}}/{{ fourth_post. image }}{% endif %}  alt= {{ fourth_post. title }} &gt;                        {% endif %}                            {{ fourth_post. title }}          :                       In             {% for category in fourth_post. categories %}            {{ category }},             {% endfor %}                                            {{ fourth_post. date | date: '%b %d, %Y' }}                          {% for post in site. posts %}{% if post. tags contains  sticky  %}                    {{post. title}}                  {{ post. excerpt | strip_html | strip_newlines | truncate: 136 }}                 Read More                        {% endif %}{% endfor %}{% endif %}       All Stories:     {% for post in paginator. posts %}      {% include main-loop-card. html %}    {% endfor %}               {% if paginator. total_pages &gt; 1 %}             {% if paginator. previous_page %}        &laquo; Prev       {% else %}        &laquo;       {% endif %}       {% for page in (1. . paginator. total_pages) %}        {% if page == paginator. page %}        {{ page }}        {% elsif page == 1 %}        {{ page }}        {% else %}        {{ page }}        {% endif %}       {% endfor %}       {% if paginator. next_page %}        Next &raquo;       {% else %}        &raquo;       {% endif %}            {% endif %}            {% include sidebar-featured. html %}  "
+    "body": "{% if page. url ==  /  %}    {% assign latest_post = site. posts[0] %}        &lt;div class= topfirstimage  style= background-image: url({% if latest_post. image_scaled contains  ://  %}{{ latest_post. image_scaled }}{% else %} {{site. baseurl}}/{{ latest_post. image_scaled}}{% endif %}); height: 250px;  background-size: cover;  background-repeat: no-repeat; &gt;&lt;/div&gt;        {{ latest_post. title }}  :       {{ latest_post. excerpt | strip_html | strip_newlines | truncate: 136 }}               In         {% for category in latest_post. categories %}        {{ category }},         {% endfor %}                      {{ latest_post. date | date: '%b %d, %Y' }}                      {%- assign second_post = site. posts[1] -%}            {% if second_post. image %}                         &lt;img class= w-100  src= {% if second_post. image contains  ://  %}{{ second_post. image }}{% else %}{{ second_post. image | absolute_url }}{% endif %}  alt= {{ second_post. title }} &gt;                        {% endif %}                            {{ second_post. title }}          :                       In             {% for category in second_post. categories %}            {{ category }},             {% endfor %}                                            {{ second_post. date | date: '%b %d, %Y' }}                                {%- assign third_post = site. posts[2] -%}            {% if third_post. image %}                         &lt;img class= w-100  src= {% if third_post. image contains  ://  %}{{ third_post. image }}{% else %}{{site. baseurl}}/{{ third_post. image }}{% endif %}  alt= {{ third_post. title }} &gt;                        {% endif %}                            {{ third_post. title }}          :                       In             {% for category in third_post. categories %}            {{ category }},             {% endfor %}                                            {{ third_post. date | date: '%b %d, %Y' }}                                {%- assign fourth_post = site. posts[3] -%}            {% if fourth_post. image %}                        &lt;img class= w-100  src= {% if fourth_post. image contains  ://  %}{{ fourth_post. image }}{% else %}{{site. baseurl}}/{{ fourth_post. image }}{% endif %}  alt= {{ fourth_post. title }} &gt;                        {% endif %}                            {{ fourth_post. title }}          :                       In             {% for category in fourth_post. categories %}            {{ category }},             {% endfor %}                                            {{ fourth_post. date | date: '%b %d, %Y' }}                          {% for post in site. posts %}{% if post. tags contains  sticky  %}                    {{post. title}}                  {{ post. excerpt | strip_html | strip_newlines | truncate: 136 }}                 Read More                        {% endif %}{% endfor %}{% endif %}       All Stories:     {% for post in paginator. posts %}      {% include main-loop-card. html %}    {% endfor %}               {% if paginator. total_pages &gt; 1 %}             {% if paginator. previous_page %}        &laquo; Prev       {% else %}        &laquo;       {% endif %}       {% for page in (1. . paginator. total_pages) %}        {% if page == paginator. page %}        {{ page }}        {% elsif page == 1 %}        {{ page }}        {% else %}        {{ page }}        {% endif %}       {% endfor %}       {% if paginator. next_page %}        Next &raquo;       {% else %}        &raquo;       {% endif %}            {% endif %}            {% include sidebar-featured. html %}  "
     }, {
     "id": 9,
     "url": "http://localhost:4000https://random-6.github.io/ultimate_language_combat//privacy-policy.html",
@@ -231,9 +231,10 @@ function lunr_search(term) {
     <main role="main" class="site-content">
         
 <div class="container">
-<div class="jumbotron jumbotron-fluid mb-3 pl-0 pt-0 pb-0 bg-white position-relative">
+<div class="jumbotron jumbotron-fluid mb-0 pl-0 pt-0 pb-0 bg-white position-relative">
 		<div class="h-100 tofront">
 			<div class="row  justify-content-between ">
+
 				<div class=" col-md-6  pr-0 pr-md-4 pt-4 pb-4 align-self-center">
 					<p class="text-uppercase font-weight-bold">
                         <span class="catlist">
@@ -242,13 +243,16 @@ function lunr_search(term) {
                         
                         </span>
 					</p>
-					<h1 class="display-4 mb-4 article-headline">Welcome to ULC!</h1>
+					<h2 class="display-4 mb-4 article-headline">Welcome to ULC!</h2>
 					<div class="d-flex align-items-center">
                         
-                        <img class="rounded-circle" src="https://random-6.github.io/ultimate_language_combat//assets/images/xisca_1.jpeg" alt="Xisca" width="70"/>
+                        <img class="rounded-circle" src="https://random-6.github.io/ultimate_language_combat//assets/images/xisca_1.jpeg" alt="Xisca" width="100"/>
                         
-						<small class="ml-3"> Xisca <span><a target="_blank" href="https://twitter.com/wowthemesnet" class="btn btn-outline-success btn-sm btn-round ml-1">Follow</a></span>
-                            <span class="text-muted d-block mt-1">Oct 15, 2020 · <span class="reading-time">
+						<small class="ml-3"> Xisca
+							<span>
+								<a target="_blank" href="https://twitter.com/wowthemesnet" class="btn btn-outline-success btn-sm btn-round ml-1">Follow</a>
+							</span>
+              <span class="text-muted d-block mt-1">Oct 15, 2020 · <span class="reading-time">
   
   
     1 min read
@@ -258,9 +262,10 @@ function lunr_search(term) {
 						</small>
 					</div>
 				</div>
+
                 
-				<div class="col-md-6 pr-0 align-self-center">
-					<img class="rounded" src="https://random-6.github.io/ultimate_language_combat//assets/images/home_v1_scaled.jpg" alt="Welcome to ULC!">
+				<div class="col-md-4 pr-0 align-self-center">
+					<img class="rounded" src="https://random-6.github.io/ultimate_language_combat//assets/images/home_v1.jpg" alt="Welcome to ULC!">
 				</div>
                 
 			</div>
@@ -274,8 +279,8 @@ function lunr_search(term) {
 
 <div class="container-lg pt-4 pb-4">
 	<div class="row justify-content-center">
-        
-        
+
+
         <!-- Share -->
 		<div class="col-lg-2 pr-4 mb-4 col-md-12">
 			<div class="sticky-top sticky-top-offset text-center">
@@ -294,21 +299,21 @@ function lunr_search(term) {
 				</div>
 			</div>
 		</div>
-        
-        
+
+
 		<div class="col-md-12 col-lg-8">
-            
+
             <!-- Article -->
-			<article class="article-post">                
+			<article class="article-post">
 			<p>This is our first post. The idea is to present ourself and the objective of this blog.</p>
 
 <figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">Using</span> <span class="n">this</span> <span class="n">to</span> <span class="n">display</span> <span class="n">some</span> <span class="n">code</span></code></pre></figure>
 
 <p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>
 
-                
+
 			</article>
-			
+
 			<!-- Tags -->
 			<div class="mb-4">
 				<span class="taglist">
@@ -317,49 +322,26 @@ function lunr_search(term) {
 				
 				</span>
 			</div>
- 
+
             <!-- Mailchimp Subscribe Form -->
             
-			<div class="border p-5 bg-lightblue">
-				<div class="row justify-content-between">
-					<div class="col-md-6 mb-2 mb-md-0">
-						<h5 class="font-weight-bold">Join Newsletter</h5>
-						 Get the latest news right in your inbox. We never spam!
-					</div>
-					<div class="col-md-6">
-						<div class="row">
-                            <form action="https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b" method="post" name="mc-embedded-subscribe-form" class="wj-contact-form validate w-100" target="_blank" novalidate>
-                            <div class="mc-field-group">
-							
-								<input type="email" placeholder="Enter e-mail address" name="EMAIL" class="required email form-control w-100" id="mce-EMAIL" autocomplete="on" required>
-							
-							
-								<button type="submit" value="Subscribe" name="subscribe" class="heart btn btn-success btn-block w-100 mt-2">Subscribe</button>
-							
-                            </div>
-                            </form>
-						</div>
-					</div>
-				</div>
-			</div>
-            
-            
-            
+
+
              <!-- Author Box -->
-                				
+                
 				<div class="row mt-5">
 					<div class="col-md-2 align-self-center">
                          
-                        <img class="rounded-circle" src="https://random-6.github.io/ultimate_language_combat//assets/images/xisca_1.jpeg" alt="Xisca" width="90"/>
-                         
+                        <img class="rounded-circle" src="https://random-6.github.io/ultimate_language_combat//assets/images/xisca_1.jpeg" alt="Xisca" width="100"/>
+                        
 					</div>
-					<div class="col-md-10">		
+					<div class="col-md-10">
                         <h5 class="font-weight-bold">Written by Xisca <span><a target="_blank" href="https://twitter.com/wowthemesnet" class="btn btn-outline-success btn-sm btn-round ml-2">Follow</a></span></h5>
-						Hi, I'm Xis. Data Scientist | Music composer | Book & Cats Lover!					
+						Hi, I'm Xis. Data Scientist | Music composer | Book & Cats Lover!
 					</div>
-				</div>				
+				</div>
                 
-            
+
             <!-- Comments -->
             
                 <!--  Don't edit anything here. Set your disqus id in _config.yml -->
@@ -382,10 +364,10 @@ function lunr_search(term) {
 </div>
 
             
-            
+
 		</div>
-        
-        
+
+
 	</div>
 </div>
 

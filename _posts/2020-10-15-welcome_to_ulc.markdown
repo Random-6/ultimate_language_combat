@@ -2,7 +2,8 @@
 layout: post
 title:  "Welcome to ULC!"
 categories: [ Intro ]
-image: assets/images/home_v1_scaled.jpg
+image_scaled: assets/images/home_v1_scaled.jpg
+image: assets/images/home_v1.jpg
 tags: [intro]
 ---
 
