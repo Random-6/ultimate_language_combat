@@ -1,9 +1,10 @@
 # Site
-name: 'Mundana'
-description: 'Mundana is a free Jekyll theme for awesome people like you, Medium like.'
-logo: 'assets/images/logo.png'
+name: 'The Ultimate Language Combat'
+description: 'The ULC is a blog page to determine which language is better for what'
+logo: 'assets/images/home_v1_small.png'
 favicon: 'assets/images/favicon.ico'
-baseurl: 'https://random-6.github.io/ultimate_language_combat/'
+#baseurl: 'https://random-6.github.io/ultimate_language_combat/'
+baseurl: ''
 disqus: 'demowebsite'
 email: 'wowthemesnet@gmail.com'
 mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
@@ -19,21 +20,21 @@ plugins:
   - jekyll-seo-tag
 
 authors:
-    sal:
-      name:           Sal
-      site:           https://www.wowthemes.net
-      avatar:         /assets/images/avatar1.jpg
-      bio:            "Hi, I am Sal, the author of Mundana, the theme you're currently previewing. I hope you like it!"
-      email:          wowthemesnet@gmail.com
+    xisca:
+      name:           Xisca
+      site:           https://xiscasite.com
+      avatar:         /assets/images/xisca_1.jpg
+      bio:            "Hi, I'm Xis. Data Scientist | Music composer | Book & Cats Lover!"
+      email:          xiscatest@gmail.com
       twitter:        https://twitter.com/wowthemesnet
 
-    jane:
-      name:           Jane
-      site:           https://www.wowthemes.net
-      avatar:         /assets/images/avatar2.jpg
-      bio:            "Blogger, fashionista, love to explore new ideas and write on my morning coffee!"
+    alex:
+      name:           Alex
+      site:           https://alexsite.com
+      avatar:         /assets/images/alex_1.jpg
+      bio:            "Hi, I'm Alex. Data Scientist| PhD | Philosophy & Art Enthusiast"
       email:          fakemail@gmail.com
-      twitter:        https://twitter.com/wowthemesnet
+      twitter:        https://twitter.com/alexx_abos
 
 # Defaults
 defaults:
@@ -43,8 +44,8 @@ defaults:
       path: "_posts"
     values:
       layout: post
-      author: sal
-      avatar: /assets/images/avatar1.jpg
+      author: xisca
+      avatar: /assets/images/xisca_1.jpg
 
   # all pages
   - scope:
@@ -58,7 +59,6 @@ highlighter: rouge
 
 # Paginate
 paginate: 10
-
 
 
 # Exclude metadata and development time dependencies (like Grunt plugins)
